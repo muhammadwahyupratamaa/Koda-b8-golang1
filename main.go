@@ -20,9 +20,9 @@ func main() {
 
 	fmt.Println("=== Menghitung Luas Lingkaran dan keliling lingkaran ===")
 	fmt.Println("=== Kita Tentukan isi dari jari-jarinya terlebih dahulu ===")
+	fmt.Print("Input jari jari :")
 	fmt.Scan(&jari)
 
-	fmt.Println()
 	luas(jari,phi)
 	keliling(jari,phi)
 }
